@@ -39,6 +39,26 @@ Le système est hautement configurable via les variables suivantes :
 
 ---
 
+## 📊 Analyse des Résultats
+
+Les simulations valident nos hypothèses sur la dynamique virale.
+
+### 1. Impact du taux de vaccination
+D'après nos tests, on observe une décroissance exponentielle de la durée de l'épidémie à mesure que la probabilité de vaccination augmente. 
+
+![Efficacité de la vaccination](impact_vaccination.png)
+
+*Note : Avec un taux de vaccination de 5%, la durée de présence du virus est divisée par 4 par rapport à une population non protégée.*
+
+### 2. Dynamique du réservoir infectieux initial
+L'analyse révèle un comportement non-linéaire du système.
+
+![Impact des infectés initiaux](impact_infectes.png)
+
+*   **Croissance :** La persistance de la maladie augmente proportionnellement au nombre d'infectés jusqu'à un seuil critique (100 individus).
+*   **Saturation :** Au-delà de ce seuil, la durée diminue : le virus sature si vite la population susceptible que l'épidémie s'éteint faute d'hôtes sains disponibles.
+
+---
 ## 📚 Références & Inspirations
 - **Modèles de complexité :** [Complexity Explorables](https://www.complexity-explorables.org/explorables/i-herd-you/)
 - **Concepts épidémiologiques :** [Institut Pasteur - Immunité collective](https://www.pasteur.fr/fr/espace-presse/documents-presse/qu-est-ce-que-immunite-collective)
