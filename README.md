@@ -4,11 +4,11 @@ Ce projet est une simulation de la propagation d'une maladie au sein d'une popul
 
 ---
 
-## 🔬 Objectifs Scientifiques
+## 🔬 Objectifs & Thèses
 
-L'étude repose sur deux hypothèses majeures :
-1. **Thèse Principale :** Si 50% de la population est vaccinée, la maladie disparaît du système (Seuil d'immunité collective).
-2. **Thèse Secondaire :** Si 50% de la population est infectée initialement, la contamination devient totale.
+L'objectif est d'évaluer l'impact des paramètres de santé publique sur la cinétique épidémique.
+*   **Thèse principale :** L'atteinte d'un seuil de vaccination (fixé ici à 50% selon les modèles théoriques) permet l'extinction de la maladie par immunité collective.
+*   **Thèse secondaire :** Un réservoir infectieux initial trop important (50%+) entraîne une contamination quasi-instantanée de la population totale.
 
 Le projet évalue l'efficacité des interventions de santé publique en faisant varier des paramètres tels que le taux de transmission, la durée d'incubation et la cinétique de vaccination.
 
