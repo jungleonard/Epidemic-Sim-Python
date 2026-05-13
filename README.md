@@ -1,10 +1,10 @@
-# 🦠 Modeling Herd Immunity & Viral Propagation
+# Modeling Herd Immunity & Viral Propagation
 
 Ce projet est une simulation de la propagation d'une maladie au sein d'une population dynamique utilisant un modèle d'automate cellulaire. L'objectif est d'étudier l'impact des politiques de vaccination et de l'immunité collective sur l'évolution d'une épidémie.
 
 ---
 
-## 🔬 Objectifs & Thèses
+## Objectifs & Thèses
 
 L'objectif est d'évaluer l'impact des paramètres de santé publique sur la cinétique épidémique.
 *   **Thèse principale :** L'atteinte d'un seuil de vaccination (fixé ici à 50% selon les modèles théoriques) permet l'extinction de la maladie par immunité collective.
@@ -14,21 +14,21 @@ Le projet évalue l'efficacité des interventions de santé publique en faisant 
 
 ---
 
-## 🛠️ Architecture du Projet
+## Architecture du Projet
 
 Le simulateur est développé en **Python 3** en utilisant le paradigme de la **Programmation Orientée Objet (POO)**.
 
 *   **Modélisation spatiale :** La population est représentée par une matrice 2D où chaque cellule contient un objet `Individu`.
 *   **Voisinage :** Utilisation du modèle de Moore (carré de 8 voisins).
 *   **États des individus :**
-    *   ⚪ `Normal` : Susceptible d'être infecté.
-    *   🔴 `Infecté` : Porteur et transmetteur de la maladie.
-    *   🛡️ `Immunisé` : Guéri après infection (protection temporaire).
-    *   💉 `Vacciné` : Protection permanente contre la maladie.
+    *  `Normal` : Susceptible d'être infecté.
+    *  `Infecté` : Porteur et transmetteur de la maladie.
+    *  `Immunisé` : Guéri après infection (protection temporaire).
+    *  `Vacciné` : Protection permanente contre la maladie.
 
 ---
 
-## ⚙️ Paramètres de Simulation
+## Paramètres de Simulation
 
 Le système est hautement configurable via les variables suivantes :
 - **Taille de l'espace :** Dimensions de la matrice de simulation.
@@ -39,7 +39,7 @@ Le système est hautement configurable via les variables suivantes :
 
 ---
 
-## 📊 Analyse des Résultats
+## Analyse des Résultats
 
 Les simulations valident nos hypothèses sur la dynamique virale.
 
@@ -59,7 +59,7 @@ L'analyse révèle un comportement non-linéaire du système.
 *   **Saturation :** Au-delà de ce seuil, la durée diminue : le virus sature si vite la population susceptible que l'épidémie s'éteint faute d'hôtes sains disponibles.
 
 ---
-## 📚 Références & Inspirations
+## Références & Inspirations
 - **Modèles de complexité :** [Complexity Explorables](https://www.complexity-explorables.org/explorables/i-herd-you/)
 - **Concepts épidémiologiques :** [Institut Pasteur - Immunité collective](https://www.pasteur.fr/fr/espace-presse/documents-presse/qu-est-ce-que-immunite-collective)
 - **Données de santé :** [OMS (WHO) - COVID-19 & Herd Immunity](https://www.who.int/fr/news-room/questions-and-answers/item/herd-immunity-lockdowns-and-covid-19)
