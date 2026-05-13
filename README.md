@@ -16,7 +16,7 @@ Le projet évalue l'efficacité des interventions de santé publique en faisant 
 
 ## Architecture du Projet
 
-Le simulateur est développé en **Python 3** en utilisant le paradigme de la **Programmation Orientée Objet (POO)**.
+Le simulateur est développé en Python en utilisant le paradigme de la Programmation Orientée Objet (POO).
 
 *   **Modélisation spatiale :** La population est représentée par une matrice 2D où chaque cellule contient un objet `Individu`.
 *   **Voisinage :** Utilisation du modèle de Moore (carré de 8 voisins).
